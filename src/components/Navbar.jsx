@@ -25,7 +25,7 @@ export default function Navbar() {
           </>
         ) : (
           <>
-            <span className="user">👋 {user}</span>
+            <span className="user">Hello, {user}</span>
             <button
               className="btn danger"
               onClick={() => {
